@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<title>Home Page</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<div class="homepagecontainer">
 		<h1 class="homepagetitle">Taffy Kingdom</h1>
