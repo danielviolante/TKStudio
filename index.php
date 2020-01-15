@@ -27,7 +27,7 @@
 						</p>
 					</td>
 					<td style="padding-left:20px; padding-right:20px; padding-top:20px; padding-bottom:20px; width:33.3%; float:right;">
-						<img src="little_palm.png" alt="Taffy STAYZ litt">
+						<img src="images/little_palm.png" alt="Taffy STAYZ litt">
 					</td>
 					<td style="width:33.3%;">
 
