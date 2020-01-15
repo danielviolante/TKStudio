@@ -168,6 +168,7 @@
     $('.name').keyup(function (){
         $(this).val($(this).val().replace(/[^A-Z|a-z]/g, ''));
     });
+    
     //Charcter Limits
     CharLimit('username', 20);
     CharLimit('name', 20);
