@@ -23,6 +23,7 @@ if (isset($_SESSION['userid'])){
               <a href="register.php" style="padding-right:40px; float: right">Create Account</a>
             </div>
           </form>
+          
         ';
 }
 	

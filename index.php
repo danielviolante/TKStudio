@@ -14,7 +14,6 @@
 		require "navigation.php";
 	?>
 	</head>
-
 	<body>
 		<div class="homepagecontainer">
 			<div style="background-color:lightgray; height:60%; overflow: hidden;">
