@@ -17,26 +17,24 @@
 
 	<body>
 		<div class="homepagecontainer">
-			<table style="background-color:lightgray;">
-				<tr>
-					<td style="padding-left:20px; padding-right:20px; padding-top:20px; padding-bottom:20px; width:33.3%;">
-						<p>
-						Welcome,<br><br> 
-						this is a project that will mostly revolve around EO content for the time being. Our goal is to make EO more fun by providing an accurate artist time,
-						 and giving new players the opportunity to discover the game by providing an easy download link and guides that give them fundamental knowledge. We are hoping this will eventually evolve into creating our own game/games. <br><br>We appreciate your support!
-						</p>
-					</td>
-					<td style="padding-left:20px; padding-right:20px; padding-top:20px; padding-bottom:20px; width:33.3%; float:right;">
-						<img src="images/little_palm.png" alt="Taffy STAYZ litt">
-					</td>
-					<td style="width:33.3%;">
+			<div style="background-color:lightgray; height:60%; overflow: hidden;">
 
-						<?php
-							include 'login.php';
-						?>
-					</td>
-				</tr>
-			</table>
+				<p style="margin: 10px; padding: 20px; float: left; width:30%;">
+					Welcome,<br><br> 
+					this is a project that will mostly revolve around EO content for the time being. Our goal is to make EO more fun by providing an accurate artist time,
+					 and giving new players the opportunity to discover the game by providing an easy download link and guides that give them fundamental knowledge. We are hoping this will eventually evolve into creating our own game/games. <br><br>We appreciate your support!
+				</p>
+
+				<div style="float: left; width: 30%; /*background-color: red;*/">
+					<img src="images/little_palm.png" alt="Taffy STAYZ litt" style="margin-left: 38%;width:60%; height:auto; /*background-color: blue;*/">
+				</div>
+
+				<div style="margin: 10px; float: right; width:33%;">
+					<?php
+						include 'login.php';
+					?>
+				</div>
+			</div>
 		</div>
 		<?php
 			require "footer.php";

@@ -1,12 +1,15 @@
 /*Title CSS*/
-.homepagecontainer{
+.homepagecontainer {
 
 	width:100%;
-	  min-width: 100%;
-	  max-width: 100%;
 }
+
 .homepagetitle {
-text-align: center;
+  text-align: center;
+}
+
+body {
+  margin-bottom: 0px;  /*this is so the footer doesn't have a margin at the bottom of the page*/
 }
 
 /*Navigation CSS */
@@ -46,27 +49,26 @@ a.nav:hover {
 	color: #75f0cf;
 }
 
+
 /*Footer */
+footer {
+  position: relative;
+  height: 34%;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+}
 
-    footer {
-        position: relative;
-        height: 300px;
-        width: 100%;
-        background-color: #333333;
-		text-align: center;
-    }
-
-    p.copyright {
-
-        width: 100%;
-        color: #fff;
-        line-height: 40px;
-        font-size: 0.7em;
-        text-align: center;
-        bottom:0;
-    }
+p.copyright {
+  width: 100%;
+  color: #fff;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom:0;
+}
 	
-	/*Login CSS*/
+/*Login CSS*/
 
 /* Bordered form */
 form {
@@ -120,19 +122,8 @@ img.avatar {
   size: 100%;
 }
 
-/* The "Forgot password" text */
-span.psw {
-  float: right;
- width:60%;
- padding-top:18px;
-}
-
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-
+  /*doesn't exist anymore*/
 }
 	
