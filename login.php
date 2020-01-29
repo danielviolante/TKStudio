@@ -26,7 +26,7 @@ if (isset($_SESSION['userid'])){
             <div class="mx-auto pt-3">
               <div class="d-flex justify-content-between">
                 <a href="forgotPass.html" class="my-auto">Forgot Password?</a>
-                <input type="button" class="btn btn-primary" onclick="window.location.href = 'createAcc.html';" value="Create Account"/>
+                <input type="button" class="btn btn-primary" onclick="window.location.href = \'createAcc.html\';" value="Create Account"/>
               </div>
             </div>
           </div>
