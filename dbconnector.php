@@ -2,7 +2,7 @@
 //Basic Connection Information
 $servername = "localhost";
 $dbuser = "taffy";
-$dbpw = "Ultima0ne1";
+$dbpw = "test"; 		//change this when testing
 
 //ACCOUNTS DB
 $accountdb = "accounts";
