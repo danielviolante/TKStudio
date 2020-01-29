@@ -13,8 +13,8 @@ if (isset($_SESSION['userid'])){
                 <input type="email" class="form-control" placeholder="Enter email" id="email">
               </div>
               <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                <label for="pw">Password:</label>
+                <input type="password" class="form-control" placeholder="Enter password" id="pw">
               </div>
               <div class="form-group form-check">
                 <label class="form-check-label">
